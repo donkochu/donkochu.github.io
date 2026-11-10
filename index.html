@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>포켓몬 랜덤 디펜스 (포랜디) - 설치 없이 하는 포켓몬 디펜스 웹게임</title>
+    <meta name="description" content="랜덤 소환으로 포켓몬을 모아 관장 8명과 포켓몬 리그 챔피언에 도전하는 무료 디펜스 웹게임이에요. 설치 없이 PC와 폰 브라우저에서 바로 해요. 비공식 팬게임이에요." />
+    <link rel="canonical" href="https://donkochu.github.io/" />
+    <meta name="naver-site-verification" content="eaaae3682e574db4228cd09544fd7f0dcd34f991" />
+    <meta name="theme-color" content="#060612" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="포켓몬 랜덤 디펜스" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:title" content="포켓몬 랜덤 디펜스 (포랜디)" />
+    <meta property="og:description" content="랜덤 소환으로 포켓몬을 모아 관장 8명과 포켓몬 리그 챔피언에 도전하는 무료 디펜스 웹게임. 설치 없이 PC와 폰에서 바로 해요." />
+    <meta property="og:url" content="https://donkochu.github.io/" />
+    <meta property="og:image" content="https://donkochu.github.io/pokemon-random-defense/preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/pokemon-random-defense/favicon.png" />
+    <link rel="apple-touch-icon" href="/pokemon-random-defense/apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "포켓몬 랜덤 디펜스", "alternateName": "포랜디", "url": "https://donkochu.github.io/", "inLanguage": "ko", "description": "랜덤 소환으로 포켓몬을 모아 관장 8명과 포켓몬 리그 챔피언에 도전하는 무료 디펜스 웹게임.", "about": {"@type": "VideoGame", "name": "포켓몬 랜덤 디펜스", "alternateName": "포랜디", "url": "https://donkochu.github.io/pokemon-random-defense/", "gamePlatform": ["웹 브라우저", "PC", "Android", "iOS"], "author": {"@type": "Person", "name": "방구석평론가"}}}</script>
+    <style>
+      :root { --bg: #060612; --card: #10142a; --line: #252b4a; --text: #e8ebf5; --muted: #9aa3c0; --yellow: #ffd23f; --red: #e23c3c; --red-dark: #b82a2a; --blue: #8fd0ff; }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; font-size: 17px; line-height: 1.75; word-break: keep-all; overflow-wrap: anywhere; }
+      a { color: var(--blue); }
+      .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px 56px; }
+      header { padding: 44px 0 0; text-align: center; }
+      .kicker { margin: 0 0 6px; color: var(--muted); font-size: 14px; letter-spacing: 0.04em; }
+      h1 { margin: 0 0 12px; font-size: clamp(30px, 7vw, 44px); line-height: 1.2; color: var(--yellow); }
+      .lead { margin: 0 auto 24px; max-width: 32em; }
+      .btns { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; }
+      .play { display: inline-block; padding: 14px 34px; border-radius: 12px; background: var(--red); border-bottom: 4px solid var(--red-dark); color: #fff; font-size: 19px; font-weight: 700; text-decoration: none; }
+      .play:hover, .play:focus-visible { filter: brightness(1.08); }
+      .play:active { transform: translateY(2px); border-bottom-width: 2px; }
+      .more { display: inline-block; padding: 13px 22px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--text); font-size: 17px; text-decoration: none; }
+      .more:hover, .more:focus-visible { border-color: var(--blue); }
+      .sub { margin: 12px 0 0; color: var(--muted); font-size: 14px; }
+      .shot { display: block; width: 100%; height: auto; margin: 30px 0 0; border-radius: 14px; border: 1px solid var(--line); }
+      h2 { margin: 44px 0 12px; padding-bottom: 8px; border-bottom: 2px solid var(--line); font-size: 24px; line-height: 1.3; color: var(--yellow); }
+      p { margin: 0 0 12px; }
+      ul { margin: 0 0 12px; padding-left: 1.3em; }
+      li { margin-bottom: 6px; }
+      footer { margin-top: 44px; color: var(--muted); font-size: 14px; }
+      footer p { margin-bottom: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <p class="kicker">설치 없이 브라우저에서 하는 포켓몬 디펜스 웹게임</p>
+        <h1>포켓몬 랜덤 디펜스</h1>
+        <p class="lead">랜덤 소환으로 포켓몬을 모아 관장 8명과 포켓몬 리그 챔피언에 도전하는 디펜스 게임이에요. 줄여서 포랜디라고 불러요. PC와 폰 브라우저에서 무료로 바로 할 수 있어요.</p>
+        <div class="btns">
+          <a class="play" href="/pokemon-random-defense/">게임 시작하기</a>
+          <a class="more" href="/pokemon-random-defense/guide/">하는 법 보기</a>
+        </div>
+        <p class="sub">처음 열 때 30MB쯤 받아요. 폰은 와이파이에서 여는 게 좋아요.</p>
+        <a href="/pokemon-random-defense/"><img class="shot" src="/pokemon-random-defense/guide/play.webp" width="1366" height="768" alt="포켓몬 랜덤 디펜스 플레이 화면. 가운데 배틀칸의 포켓몬 6마리가 길을 따라 도는 야생 포켓몬을 공격하고, 오른쪽에 소환 버튼과 PC칸이 있어요." /></a>
+      </header>
+
+      <main>
+        <h2>어떤 게임인가요</h2>
+        <p>코인으로 포켓몬을 랜덤 소환해서, 길을 따라 도는 야생 포켓몬을 막는 디펜스 게임이에요. 무엇이 나올지 모르는 소환과 합치기에 포켓몬의 타입 상성과 관장전을 더했어요.</p>
+        <ul>
+          <li>1세대 포켓몬 151마리가 나와요. 등급은 일반, 희귀, 영웅, 전설이에요.</li>
+          <li>배틀칸 6마리만 싸워요. 웨이브마다 바뀌는 적 타입에 맞춰 바꿔 끼워요.</li>
+          <li>10웨이브마다 관장과 싸워요. 배지 8개를 모으면 포켓몬 리그에서 사천왕과 챔피언에 도전해요.</li>
+          <li>설치도 가입도 필요 없어요. 폰에서는 홈 화면에 추가해서 앱처럼 쓸 수 있어요.</li>
+        </ul>
+        <p>자세한 내용은 <a href="/pokemon-random-defense/guide/">포켓몬 랜덤 디펜스 하는 법</a>에 정리했어요.</p>
+      </main>
+
+      <footer>
+        <p>만든이: 방구석평론가 · 엔진: GameMaker · 포켓몬 그림: Pokémon Essentials 그래픽 묶음 · 배경 그림: Google Gemini · 음악과 효과음: 8비트 원곡</p>
+        <p>비공식 팬게임이에요. 닌텐도, 게임프리크, 포켓몬컴퍼니와 관계없고 돈을 받지 않아요.</p>
+      </footer>
+    </div>
+  </body>
+</html>
